@@ -1,0 +1,4 @@
+# Created at 2019-10-20T06:34:34.327
+Boot Manifest-JAR contains absolute paths in classpath 'D:\IngeniousTechHubWorkSpace\IngeniousTechHubApp\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

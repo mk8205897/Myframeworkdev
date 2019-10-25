@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+
+<listener class-name="IngeniousTechHub.IngeniousTechHubApp.Listinerss"/>
+<listener class-name="resources.ExtentReporterNG"/>
+
+</listeners>
+
+  
+  <test name="Validating Home Page">
+    <classes>
+      <class name="IngeniousTechHub.IngeniousTechHubApp.HomePage"/>
+       </classes>
+      </test>
+ 
+  
+  
+   <test name="test">
+   <classes>
+    <class name="IngeniousTechHub.IngeniousTechHubApp.ValidateNavigateBar"/>
+      </classes>
+       </test>
+
+  
+   <test name="Validating title in the page">
+    <classes>
+    <class name="IngeniousTechHub.IngeniousTechHubApp.ValidateTitle"/>
+     </classes> 
+    </test>
+   
+       
+    <test name="App Testing">
+    <classes>
+      <class name="IngeniousTechHub.IngeniousTechHubApp.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
